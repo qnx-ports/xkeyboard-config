@@ -1,0 +1,5 @@
+! model		=	keycodes
+ $jollamodels	=	hidut+jolla(jolla)
+  olpc		=	hidut+olpc(olpc)
+  olpcm		=	hidut+olpc(olpcm)
+  *		=	hidut

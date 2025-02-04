@@ -163,7 +163,7 @@ if python.language_version().version_compare('<@0@'.format(MINIMUM_PYTHON_VERSIO
 endif
 merge_py = find_program('merge.py')
 xml2lst = find_program('xml2lst.pl')
-foreach ruleset: ['base', 'evdev']
+foreach ruleset: ['base', 'evdev', 'hidut']
     # generate the "evdev" and "base" rules files
     #
     # First: copy all the parts over to the build directory, replacing

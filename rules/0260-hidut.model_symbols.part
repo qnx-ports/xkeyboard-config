@@ -1,0 +1,4 @@
+! model		=	symbols
+  chromebook    =   +inet(hidut)+inet(chromebook)
+  ppkb          =   +inet(hidut)+inet(ppkb)
+  *             =   +inet(hidut)
